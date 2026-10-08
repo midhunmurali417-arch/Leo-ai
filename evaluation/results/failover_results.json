@@ -1,0 +1,476 @@
+{
+  "total_trials": 15,
+  "successful_failovers": 15,
+  "failover_success_rate": 1.0,
+  "takeover_distribution": {
+    "gemini-flash-lite-latest": 15
+  },
+  "mean_extra_delay_sec": 0.213,
+  "trials_detail": [
+    {
+      "trial": 1,
+      "prompt": "What are the benefits of modular software design?",
+      "normal_duration_sec": 21.88,
+      "failover_duration_sec": 4.98,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.840958595275879
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "prompt": "Explain how garbage collection works in modern runtimes.",
+      "normal_duration_sec": 5.44,
+      "failover_duration_sec": 4.26,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.109758138656616
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "prompt": "Describe the role of indexes in relational databases.",
+      "normal_duration_sec": 14.31,
+      "failover_duration_sec": 4.62,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.41505765914917
+        }
+      ]
+    },
+    {
+      "trial": 4,
+      "prompt": "What is the difference between synchronous and asynchronous code?",
+      "normal_duration_sec": 5.58,
+      "failover_duration_sec": 4.05,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 2.883784055709839
+        }
+      ]
+    },
+    {
+      "trial": 5,
+      "prompt": "Explain what makes a function idempotent in REST APIs.",
+      "normal_duration_sec": 14.4,
+      "failover_duration_sec": 11.04,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 9.864224910736084
+        }
+      ]
+    },
+    {
+      "trial": 6,
+      "prompt": "How does TLS certificate verification work?",
+      "normal_duration_sec": 12.29,
+      "failover_duration_sec": 10.64,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 9.424443006515503
+        }
+      ]
+    },
+    {
+      "trial": 7,
+      "prompt": "What is the purpose of containerization with Docker?",
+      "normal_duration_sec": 5.78,
+      "failover_duration_sec": 4.69,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.4631950855255127
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "prompt": "Explain the concept of eventual consistency in distributed systems.",
+      "normal_duration_sec": 4.96,
+      "failover_duration_sec": 4.68,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.448190212249756
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "prompt": "How do hash tables resolve collisions?",
+      "normal_duration_sec": 11.81,
+      "failover_duration_sec": 10.05,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 8.685867547988892
+        }
+      ]
+    },
+    {
+      "trial": 10,
+      "prompt": "Describe the difference between horizontal and vertical scaling.",
+      "normal_duration_sec": 9.82,
+      "failover_duration_sec": 6.28,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 5.114398717880249
+        }
+      ]
+    },
+    {
+      "trial": 11,
+      "prompt": "What are microservices and why are they used?",
+      "normal_duration_sec": 5.77,
+      "failover_duration_sec": 8.96,
+      "extra_delay_sec": 3.19,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 7.682542085647583
+        }
+      ]
+    },
+    {
+      "trial": 12,
+      "prompt": "Explain what a dead-letter queue does in messaging systems.",
+      "normal_duration_sec": 13.25,
+      "failover_duration_sec": 10.4,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 9.094709157943726
+        }
+      ]
+    },
+    {
+      "trial": 13,
+      "prompt": "What is the function of an API gateway in web architectures?",
+      "normal_duration_sec": 5.78,
+      "failover_duration_sec": 4.34,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.0476596355438232
+        }
+      ]
+    },
+    {
+      "trial": 14,
+      "prompt": "Describe how DNS resolution finds an IP address.",
+      "normal_duration_sec": 10.19,
+      "failover_duration_sec": 4.53,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 3.2768216133117676
+        }
+      ]
+    },
+    {
+      "trial": 15,
+      "prompt": "Explain the purpose of continuous integration and continuous deployment.",
+      "normal_duration_sec": 11.27,
+      "failover_duration_sec": 6.34,
+      "extra_delay_sec": 0.0,
+      "success": true,
+      "takeover_model": "gemini-flash-lite-latest",
+      "attempts": [
+        {
+          "model": "gemini-flash-latest",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 Mocked HTTP 429: ResourceExhausted for eval_failover"
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "status": "failed",
+          "is_rate_limit": true,
+          "error": "429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?%24alt=json%3Ben"
+        },
+        {
+          "model": "gemini-flash-lite-latest",
+          "provider": "gemini",
+          "status": "success",
+          "duration": 5.143376350402832
+        }
+      ]
+    }
+  ]
+}

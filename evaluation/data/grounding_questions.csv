@@ -1,0 +1,26 @@
+id,question,reference_answer,source_url,verified_on,status,note
+1,What is the current stable feature-release series of Python 3 as of 8 October 2026?,Python 3.14.x (Python 3.15 stable is scheduled for 9 October 2026),https://www.python.org/downloads/,2026-10-08,updated,"Was 3.13; 3.15.0rc3 announced with stable date Oct 9, 2026"
+2,Who won the most recent ICC Men's T20 World Cup (held Feb-Mar 2026)?,"India (beat New Zealand by 96 runs in the final, 8 March 2026)",https://www.icc-cricket.com/tournaments/t20worldcup,2026-10-08,updated,Was 2024 edition
+3,Who is the current Prime Minister of the United Kingdom?,"Andy Burnham (took office July 2026, succeeding Keir Starmer)",https://www.gov.uk/government/ministers/prime-minister,2026-10-08,updated,Starmer resigned; answer changed
+4,Which company develops the Claude family of AI models?,Anthropic,https://www.anthropic.com/,2026-10-08,unchanged,Stable fact
+5,What is the latest generally available Google Gemini model as of early October 2026?,Gemini 3.8 Flash (released 2 September 2026); Gemini 4 is only in limited preview,https://ai.google.dev/gemini-api/docs/models,2026-10-08,updated,Verify on Google's model page: fast-moving; source was a third-party tracker plus Ars Technica coverage
+6,Who won the 2026 Nobel Prize in Physics?,Francis Halzen (for IceCube Neutrino Observatory and discovery of high-energy astrophysical neutrinos),https://www.nobelprize.org/prizes/physics/2026/summary/,2026-10-08,updated,Announced 6 Oct 2026
+7,Who won the 2025 Nobel Prize in Chemistry?,"Susumu Kitagawa, Richard Robson and Omar M. Yaghi",https://www.nobelprize.org/prizes/chemistry/2025/summary/,2026-10-08,updated,2026 chemistry prize was announced 7 Oct 2026 but winners not confirmed here; swap in once checked
+8,Who won the 2026 FIFA World Cup?,"Spain (beat Argentina 1-0 after extra time, 19 July 2026)",https://www.fifa.com/,2026-10-08,updated,Was Euro 2024
+9,Where will the next Summer Olympic Games (2028) be hosted?,"Los Angeles, USA",https://olympics.com/en/los-angeles-2028,2026-10-08,updated,Paris 2024 is now past
+10,Who is the current President of the United States?,Donald Trump (47th President),https://www.whitehouse.gov/,2026-10-08,unchanged,Still current
+11,In which month was the iPhone 16 series released?,September 2024,https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/,2026-10-08,unchanged,Historical fact; latest iPhone model not re-checked
+12,What is the ticker symbol of NVIDIA on the NASDAQ stock exchange?,NVDA,https://www.nasdaq.com/market-activity/stocks/nvda,2026-10-08,unchanged,Stable fact
+13,Which country hosts the COP31 climate summit in November 2026?,Turkey (Antalya),https://unfccc.int/,2026-10-08,updated,NOT re-verified in search; confirm before use
+14,What is NASA's flagship space telescope operating alongside Hubble?,James Webb Space Telescope,https://webb.nasa.gov,2026-10-08,unchanged,Stable fact
+15,Who is the current CEO of Microsoft?,Satya Nadella,https://news.microsoft.com/source/exec/satya-nadella/,2026-10-08,unchanged,Confirmed (Sept 2026 sources)
+16,What is the latest stable Linux kernel release series as of October 2026?,Linux 7.2.x (7.2 released 16 August 2026),https://kernel.org,2026-10-08,updated,Was blank; 7.3 merge window currently open
+17,Who is the current CEO of Alphabet and Google?,Sundar Pichai,https://abc.xyz,2026-10-08,unchanged,Not re-verified in search
+18,Which film won Best Picture at the 98th Academy Awards (Oscars 2026)?,One Battle After Another,https://www.oscars.org,2026-10-08,updated,Was 96th Oscars
+19,Which company develops the GPT family of models?,OpenAI,https://openai.com,2026-10-08,updated,"Original asked about o1; newest OpenAI naming (GPT-6 family) is inconsistent in sources, so question made name-agnostic"
+20,Who is the current CEO of Apple Inc.?,John Ternus (took over from Tim Cook on 1 September 2026; Cook is executive chairman),https://www.apple.com/newsroom/,2026-10-08,updated,Answer changed
+21,What space company conducts the Starship flight test program?,SpaceX,https://www.spacex.com,2026-10-08,unchanged,Stable fact
+22,What is the official currency of Croatia?,Euro (adopted 1 January 2023),https://ec.europa.eu,2026-10-08,unchanged,Stable fact
+23,Which country won the most recent ICC Men's ODI Cricket World Cup (2023)?,Australia,https://www.icc-cricket.com,2026-10-08,unchanged,Still the latest edition; next is 2027
+24,Which group won the largest share of seats in the June 2024 European Parliament elections?,European People's Party (EPP),https://results.elections.europa.eu,2026-10-08,unchanged,Historical; no election since
+25,Which three countries co-hosted the 2026 FIFA World Cup (11 June-19 July 2026)?,"United States, Canada and Mexico",https://www.fifa.com,2026-10-08,updated,Tournament has now finished

@@ -1,0 +1,8 @@
+query,actual_label,predicted_label,error_type
+Who won last night?,1,0,False Negative (Live query missed search trigger)
+Is the market up?,1,0,False Negative (Live query missed search trigger)
+Did Apple announce anything new?,1,0,False Negative (Live query missed search trigger)
+How is gold doing?,1,0,False Negative (Live query missed search trigger)
+Who is leading the championship table?,1,0,False Negative (Live query missed search trigger)
+Did the hurricane make landfall?,1,0,False Negative (Live query missed search trigger)
+Is there a traffic disruption on Highway 101?,1,0,False Negative (Live query missed search trigger)

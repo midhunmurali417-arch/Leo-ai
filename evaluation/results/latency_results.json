@@ -1,0 +1,30 @@
+{
+  "Google Gemini": {
+    "no_search": {
+      "samples": 20,
+      "ttft": {
+        "mean": 2.991,
+        "median": 2.485,
+        "p95": 3.586
+      },
+      "total_time": {
+        "mean": 10.199,
+        "median": 10.02,
+        "p95": 10.964
+      }
+    },
+    "with_search": {
+      "samples": 20,
+      "ttft": {
+        "mean": 3.007,
+        "median": 2.569,
+        "p95": 3.395
+      },
+      "total_time": {
+        "mean": 10.22,
+        "median": 10.123,
+        "p95": 10.592
+      }
+    }
+  }
+}

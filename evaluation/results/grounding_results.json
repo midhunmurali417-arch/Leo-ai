@@ -1,0 +1,10 @@
+{
+  "status": "pending_manual_marking",
+  "total_questions_run": 25,
+  "ungrounded_accuracy": "Pending hand-marking",
+  "grounded_accuracy": "Pending hand-marking",
+  "citation_precision": "Pending hand-marking",
+  "mean_ungrounded_latency_sec": 12.31,
+  "mean_grounded_latency_sec": 14.95,
+  "average_citations_per_query": 4.96
+}
